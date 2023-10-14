@@ -1,0 +1,30 @@
+img.top {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+main {
+    background-color:#737373;
+    margin: 0;
+    padding: 0;
+}
+div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.logo {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin: 25px 30px;
+}
+section {
+    background-size: cover;
+}
+body {
+    margin: 0
+}
