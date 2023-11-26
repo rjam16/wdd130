@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Michroma&family=Roboto+Flex:opsz@8..144&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding-top:0;
+}
+body{
+    background-color: #262E43;
+    color: white;
+    font-family: 'Roboto Flex', Lato;
+    font-size: 16px;
+}
+nav {
+    display:block;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+nav a {
+    color: white;
+    font-family: 'Kanit', Lato;
+    padding-bottom: 0.1em;
+    font-size: 1.35em;
+    text-align: center;
+    font-weight: 300;
+    text-decoration: none;
+    padding-bottom: 0.1em;
+    margin: 10px;
+    padding: 10px;
+}
+nav a:hover {
+    color:#008DA1;
+    text-decoration: underline;
+}
+header {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width:150px;
+    font-size: 1em;
+    background: #865596;
+    transition: all .3s;
+    box-sizing: border-box;
+    border-radius: 0px 15px 15px 0px;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    position:relative;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 5px 5px 8px #F26230;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.home-title {
+    display:block;
+    font-weight: 700;
+    font-family: 'Michroma';
+    color: white;
+    font-size: 1.7em;
+    line-height: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+#hero {
+    display:grid;
+    grid-template-columns:repeat(12, 130px);
+    grid-template-rows:repeat(12, 64px)
+}
+#hero-box {
+    position: absolute;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    float:top;
+    left: 0;
+}
+#hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+footer {
+    background-color: #005395;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: white;
+    font-size: 22px;
+    font-family: 'Kanit';
+}
+footer a:hover {
+    color: #F26230;
+    text-decoration: none;
+}
+footer p {
+    font-size: 22px;
+    color:white;
+    font-family: 'Kanit';
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
