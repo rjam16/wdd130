@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Michroma&family=Roboto+Flex:opsz@8..144&display=swap');
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding-top:0;
+}
+body{
+    background-color: #262E43;
+    color: white;
+    font-family: 'Roboto Flex', Lato;
+    font-size: 16px;
+}
+nav {
+    display:block;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+nav a {
+    color: white;
+    font-family: 'Kanit', Lato;
+    padding-bottom: 0.1em;
+    font-size: 1.35em;
+    text-align: center;
+    font-weight: 300;
+    text-decoration: none;
+    padding-bottom: 0.1em;
+    margin: 10px;
+    padding: 10px;
+}
+nav a:hover {
+    color:#008DA1;
+    text-decoration: underline;
+}
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width:150px;
+    font-size: 1em;
+    background: #865596;
+    transition: all .3s;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    border-radius: 0px 15px 15px 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.logo {
+    position:relative;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 5px 5px 8px #F26230;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.home-title {
+    display:block;
+    font-weight: 700;
+    font-family: 'Michroma';
+    color: white;
+    font-size: 1.7em;
+    line-height: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #005395;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: white;
+    font-size: 22px;
+    font-family: 'Kanit';
+}
+footer a:hover {
+    color: #F26230;
+    text-decoration: none;
+}
+footer p {
+    font-size: 22px;
+    color:white;
+    font-family: 'Kanit';
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
