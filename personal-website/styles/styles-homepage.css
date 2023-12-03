@@ -123,3 +123,7 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+@media screen and (max-height: 450px) {
+    header {padding-top: 15px;}
+    header {font-size: 18px;}
+}
