@@ -51,6 +51,17 @@ header {
     margin: 0px 0px;
     padding: 0px 0px;
 }
+.full-screen {
+    height: 100%;
+    width: 100%;
+}
+.title {
+    text-align: center;
+    left: 50%;
+    font-size: 2em;
+    color: white;
+
+}
 .logo {
     position:relative;
     display: inline-flex;
