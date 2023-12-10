@@ -82,7 +82,7 @@ header {
     object-fit: cover;
 }
 .dropbtn {
-    background-color:rgba(0,0,0,0.1);
+    background-color:rgba(0,0,0,0.3);
     color: #F26230;
     padding: 16px;
     font-size: 16px;
